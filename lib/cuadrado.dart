@@ -57,6 +57,7 @@ class CuadradoForm extends State<Cuadrado>{
                   );
                 },
               ),
+              Text('\n'),
             ],
           )
         ),

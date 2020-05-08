@@ -24,7 +24,7 @@ class CirculoForm extends State<Circulo>{
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              Image.asset("images/circulo.png", width: 200, height: 200,),
+              Image.asset("images/circulo-radio.png", width: 200, height: 200,),
               CupertinoTextField(
                 textAlign: TextAlign.center,
                 keyboardType: TextInputType.numberWithOptions(decimal: true),
@@ -58,8 +58,8 @@ class CirculoForm extends State<Circulo>{
                   );
                 },
               ),
+              Text('\n'),
             ],
-
           ),
         ),
       ),

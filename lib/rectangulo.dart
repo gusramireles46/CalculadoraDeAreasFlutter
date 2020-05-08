@@ -42,6 +42,7 @@ class RectanguloForm extends State<Rectangulo>{
                 placeholder: 'Longitud de lado',
                 textAlign: TextAlign.center,
               ),
+              Text('\n'),
               CupertinoButton(
                 color: Colors.lightBlue,
                 child: Text('Calcular'),
